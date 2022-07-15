@@ -1,0 +1,20 @@
+2022-07-12 20:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*]DROP TABLE CLIENTE_EDAD IF EXISTS "
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*]DROP TABLE CLIENTE_EDAD IF EXISTS "; SQL statement:
+CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) DROP TABLE CLIENTE_EDAD IF EXISTS  [42000-214]
+2022-07-12 20:32:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*]DROP TABLE CLIENTEEDAD IF EXISTS "
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*]DROP TABLE CLIENTEEDAD IF EXISTS "; SQL statement:
+CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) DROP TABLE CLIENTEEDAD IF EXISTS  [42000-214]
+2022-07-12 20:34:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*])"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) [*])"; SQL statement:
+CREATE TABLE CLIENTE ( dni INT, nombre VARCHAR(50), apellido VARCHAR(50), fechanacimiento VARCHAR(10) ) ) [42000-214]
+2022-07-12 20:36:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*])"
+Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-214]
+2022-07-14 11:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create table CLIENTE ( DNI INT, NOMBRE VARCHAR (50), APELLIDO VARCHAR (50), FECHANACIMIENTO VARCHAR (10) primary key [*](DNI) )"; se esperaba "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "create table CLIENTE ( DNI INT, NOMBRE VARCHAR (50), APELLIDO VARCHAR (50), FECHANACIMIENTO VARCHAR (10) primary key [*](DNI) )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table CLIENTE ( DNI INT, NOMBRE VARCHAR (50), APELLIDO VARCHAR (50), FECHANACIMIENTO VARCHAR (10) primary key (DNI) ) [42001-214]

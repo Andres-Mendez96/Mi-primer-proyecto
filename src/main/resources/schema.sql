@@ -1,0 +1,10 @@
+drop table CLIENTE IF EXISTS;
+
+create table CLIENTE (
+DNI INT,
+NOMBRE VARCHAR (50),
+APELLIDO VARCHAR (50),
+FECHANACIMIENTO VARCHAR (10),
+
+primary key (DNI)
+);
